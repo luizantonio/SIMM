@@ -1,0 +1,21 @@
+3
+Asma
+3
+Bronquiectasia
+3
+DPOC
+3
+Micoses Pulmonares
+3
+Pneumonia
+3
+Tuberculose
+13
+Cistite
+13
+Glomerulonefrite por IgA (Doença de Berger)
+13
+GNDA
+13
+Litíase urinária
+^z

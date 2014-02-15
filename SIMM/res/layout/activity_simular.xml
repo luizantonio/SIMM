@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#7fffd4"
+    tools:context=".Simular" >
+	<Button
+	    android:id="@+id/button1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/button1_label" />
+	
+	<LinearLayout
+	   
+	    android:layout_width="match_parent"
+	    android:layout_height="260dp"
+	    android:background="@color/color_name_2"
+	    android:orientation="vertical" >
+	
+
+		<ListView
+	        android:id="@+id/listview_simular"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:fadeScrollbars="true"
+	        android:textColor="@color/color_name_4" >
+
+    	</ListView>	
+   		<TextView
+        	android:id="@+id/textView_empty"
+        	android:layout_width="292dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="0.42"
+        	android:text="Lista vazia" />
+   		
+	</LinearLayout>
+ 
+       <LinearLayout 
+            android:background="#90ee90"
+    		android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:orientation="vertical">
+       		<TableLayout 
+            	android:layout_marginTop="20dp"
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:stretchColumns="1" >
+
+        		<TableRow android:gravity="center_horizontal" >
+            		<TextView 
+            		    android:textColorHighlight="#4169e1"
+                		android:id="@+id/text_view_simular"
+                		android:layout_width="match_parent"
+                		android:layout_height="wrap_content"
+                		android:gravity="left"
+                   		android:text="@string/text_view_simular"                    		
+                   		android:textColor="#ffffff"
+                   		android:textSize="40sp"
+                   		android:textStyle="bold" 
+						android:textAppearance="?android:attr/textAppearanceLarge" />
+            		
+        		</TableRow>
+    		</TableLayout>
+    	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7fffd4"
+    android:orientation="vertical"
+    tools:context=".TelaSimular" >
+
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/color_name_1"
+	    android:orientation="vertical" >
+   		<ProgressBar
+        	android:id="@+id/progressBar1"
+        	style="?android:attr/progressBarStyleHorizontal"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content" />
+	
+			<Button
+	    	android:id="@+id/button1"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/button1_label" />
+	</LinearLayout>
+	 					
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="260dp"
+	    android:background="@color/color_name_2"
+	    android:orientation="vertical" >
+	   <ScrollView 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" 
+	    android:padding="10dip"> 
+			 <TableLayout
+	               android:layout_width="match_parent"
+	               android:layout_height="match_parent">
+	
+	               <TableRow
+	                   android:layout_width="wrap_content"
+	                   android:layout_height="wrap_content" >
+	
+	                   
+	                  
+	    					<TextView
+	    					    android:id="@+id/textViewAssunto"
+	    					    android:layout_width="209dp"
+	    					    android:layout_height="match_parent" />
+	    					
+	    					<TextView
+	    					    android:id="@+id/textViewAssunto"
+	    					    android:layout_width="209dp"
+	    					    android:layout_height="match_parent" 
+	    					    android:text="Tela de Simulação"/>
+	  				   
+	               </TableRow>           
+			</TableLayout>
+		</ScrollView>     		
+	</LinearLayout>
+     
+    <LinearLayout 
+            android:background="#90ee90"
+    		android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:orientation="vertical">
+	
+           <TableLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" >
+
+               <TableRow
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content" >
+
+                   <TextView
+                       android:id="@+id/text_view_simular1"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:gravity="center"
+                       android:text="@string/text_anmnese"
+                       android:textColor="#ffffff"
+                       android:textSize="13sp"
+                       android:textStyle="bold" />
+
+                   <TextView
+                       android:id="@+id/text_view_simular2"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:gravity="center"
+                       android:text="@string/text_exame_complementar"
+                       android:textColor="#ffffff"
+                       android:textSize="13sp"
+                       android:textStyle="bold" />
+
+               </TableRow>
+
+               <TableRow
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent" >
+
+               </TableRow>
+
+               <TableRow
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content" >
+
+                   <TextView
+                       android:id="@+id/text_view_simular3"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/text_diagnostico"
+                       android:textColor="#ffffff"
+                       android:textSize="13sp"
+                       android:textStyle="bold" />
+
+                   <TextView
+                       android:id="@+id/text_view_simular4"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:gravity="center"
+                       android:text="@string/text_tratamento"
+                       android:textColor="#ffffff"
+                       android:textSize="13sp"
+                       android:textStyle="bold" />
+
+               </TableRow>
+           </TableLayout>
+
+   	</LinearLayout>
+</LinearLayout>

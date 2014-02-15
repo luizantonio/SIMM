@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SIMM</string>
+    <string name="title_activity_tela_simm">Selecionar Doença</string>
+    <string name="title_activity_tela_simular">Simular</string>
+    <string name="title_activity_tela_pontuacao">Pontuação</string>
+    <string name="title_activity_tela_selecionar_area">Selecionar Área</string>
+    <string name="title_activity_tela_selecionar_doenca">Selecionar Área</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_title">SIMM</string>
+    <string name="text_title2">simulação médica</string>
+    <string name="text_historia">HISTÓRIA</string>
+    <string name="text_livre">LIVRE</string>
+    <string name="selecionar_area_medica">Selecione as doenças que você quer trabalhar.</string>
+    <string name="selecionar_doenca">Selecione as doenças que você quer trabalhar.</string>
+    <string name="text_view_simular">Simular</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button1_label">voltar</string>
+    <string name="button1_inicio_label">início</string>
+    <string name="text_anmnese">Anamnese e exame físico_</string>
+    <string name="text_exame_complementar">Exames Complementares</string>
+    <string name="text_diagnostico">Diagnóstico</string>
+    <string name="text_tratamento">Tratamento</string>
+    <string name="total_pontuacao">10 pontos</string>
+    <string name="agradecimento_paciente">Obrigado, doutor.</string>
+    <string name="agradecimento_paciente2">Me sinto muito melhor.</string>
+    <string name="title_activity_banco_de_dados">BancoDeDados</string>
+    <string name="sair">sair</string>
+    <string name="novo">novo</string>
+    <string name="salvar">salvar</string>
+    <string name="abortar">abortar</string>
+    <string name="pausar">pausar</string>
+    <string name="continuar">continuar</string>
+    <string name="menu">MENU</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_tela_menu">TelaMenu</string>
+    <string name="lista_vazia">Lista vazia.</string>
+
+</resources>

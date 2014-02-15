@@ -1,0 +1,31 @@
+Cardiologia
+Nefrologia
+Pneumologia
+Gastroenterologia
+Hepatologia
+Endocrinologia
+Hematologia
+Reumatologia
+Imunologia
+Mastologia
+Ginecologia
+Obstetrícia
+Urologia
+Oftalmologia
+Neurologia
+Infectologia
+Dermatologia
+Cabeça e pescoço
+Neurocirurgia
+Pediatria
+Neonatologia
+Psiquiatria
+Psicanálise
+Otorrinolaringologia
+Ortopedia
+Medicina genética
+Medicina molecular
+Geriatria
+Cirurgia plástica
+Homeopatia
+^z
