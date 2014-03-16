@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.simmproviders"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+	<uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+         <provider
+            android:name="com.example.simmproviders.p.SIMMProvider"
+            android:authorities="com.example.simmproviders.p" />
+        <activity
+            android:name="com.example.simmproviders.TelaSIMM"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.simmproviders.TelaSelecionarEspecialidade"
+            android:label="@string/title_activity_tela_selecionar_especialidade" >
+        </activity>
+        <activity
+            android:name="com.example.simmproviders.TelaSelecionarDoenca"
+            android:label="@string/title_activity_tela_selecionar_doenca" >
+        </activity>
+    </application>
+
+</manifest>

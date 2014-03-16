@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7fffd4"
+    android:orientation="vertical"
+    tools:context=".TelaSIMM" >
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4.60"
+        android:background="#7fffd4"
+        android:orientation="vertical" >
+		
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:text="@string/text_title"
+            android:textColor="@color/color_name_6"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_title2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="@string/text_title2"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/color_name_6"
+            android:textStyle="bold" />
+  </LinearLayout>
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4.60"
+        android:background="#7fffd4"
+        android:orientation="horizontal" >
+
+     <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+ 
+         android:src="@drawable/medicos" />
+
+ </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:background="#90ee90"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:stretchColumns="1" >
+
+            <TableRow android:gravity="center_horizontal" >
+
+                <TextView
+                    android:id="@+id/text_historia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="@string/text_historia"
+                    android:textColor="@color/color_name_2"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                
+                <TextView
+                    android:id="@+id/text_livre"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    android:text="@string/text_livre"
+                    android:textColor="@color/color_name_2"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </TableRow>
+             <TableRow android:gravity="center_horizontal" >
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

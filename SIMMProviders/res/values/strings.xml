@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="simple_insert_text">Insert</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="media_id">Media ID</string>
+    <string name="app_name">SIMMProvider</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_tela_simm">Selecionar Doença</string>
+    <string name="title_activity_tela_simular">Simular</string>
+    
+    <string name="title_activity_tela_selecionar_area">Selecionar Área</string>
+    <string name="title_activity_tela_selecionar_doenca">Selecionar Área</string>
+    <string name="text_title">SIMM</string>
+
+    <string name="text_historia">HISTÓRIA</string>
+    <string name="text_livre">LIVRE</string>
+    <string name="selecionar_area_medica">Selecione as Especialidades que você quer trabalhar.</string>
+    <string name="selecionar_doenca">Selecione as doenças que você quer trabalhar.</string>
+    <string name="text_view_simular">Simular</string>
+    <string name="button1_label">voltar</string>
+    <string name="button1_inicio_label">início</string>
+    <string name="title_activity_banco_de_dados">BancoDeDados</string>
+    <string name="sair">sair</string>
+    <string name="menu">MENU</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_tela_menu">TelaMenu</string>
+    <string name="lista_vazia">Lista vazia.</string>
+    <string name="insert_button">insert</string>
+    <string name="list_button">list</string>
+    <string name="title_activity_search_query">SearchQueryActivity</string>
+    <string name="title_activity_tela_selecionar_especialidade">TelaSelecionarEspecialidade</string>
+    <string name="title_activity_tela_selecionardoenca">TelaSelecionardoenca</string>
+    
+
+</resources>

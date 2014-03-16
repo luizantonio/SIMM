@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TelaSelecionarEspecialidade" >
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="94dp"
+	    android:background="@color/color_name_1"
+	    android:orientation="vertical" >
+
+	<Button
+	    android:id="@+id/button1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/button1_label" />
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/selecionar_area_medica"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="260dp"
+	    android:background="@color/color_name_2"
+	    android:orientation="vertical" >
+
+	    <ListView
+	        android:id="@+id/listview_selecionar_doenca"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:textColor="@color/color_name_4" 
+			android:fadeScrollbars="true" >
+   		</ListView>
+	    <TextView
+	        android:id="@+id/textViewempty2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0.42"
+	        android:text="@string/lista_vazia" />
+	    
+	</LinearLayout>
+	
+    <LinearLayout 
+        android:background="@color/color_name_5"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical">
+    </LinearLayout>	
+</LinearLayout>
