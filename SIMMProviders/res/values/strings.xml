@@ -10,7 +10,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_tela_simm">Selecionar Doença</string>
     <string name="title_activity_tela_simular">Simular</string>
-    
+    <string name="text_title2">simulação médica</string>
     <string name="title_activity_tela_selecionar_area">Selecionar Área</string>
     <string name="title_activity_tela_selecionar_doenca">Selecionar Área</string>
     <string name="text_title">SIMM</string>
